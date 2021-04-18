@@ -1,0 +1,6 @@
+registered_name = "Anne"
+first_name = input("Enter your name :")
+if first_name == registered_name :
+    print("Hello Anne! The pasword is :anne12345")
+else:
+  print("Hello, {}! See you later.".format(first_name))  
