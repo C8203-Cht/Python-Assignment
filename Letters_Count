@@ -1,0 +1,7 @@
+sentence = input("Enter your sentence: ")
+letter = {}
+for i in sentence :
+    if i != " " :
+        value = sentence.count(i)
+        letter[i] = value    
+print(letter)
